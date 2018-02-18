@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\OptionState.cs" />
     <Compile Include="BotContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
