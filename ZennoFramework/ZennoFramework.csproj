@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enums\OptionState.cs" />
+    <Compile Include="BotContextConfiguration.cs" />
     <Compile Include="BotContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
