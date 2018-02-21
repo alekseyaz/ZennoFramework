@@ -47,6 +47,9 @@
   <ItemGroup>
     <Compile Include="Enums\OptionState.cs" />
     <Compile Include="BotContextConfiguration.cs" />
+    <Compile Include="Exceptions\ElementHiddenException.cs" />
+    <Compile Include="Exceptions\ElementNotFoundException.cs" />
+    <Compile Include="Exceptions\ZennoFrameworkException.cs" />
     <Compile Include="BotContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
