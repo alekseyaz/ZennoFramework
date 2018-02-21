@@ -50,7 +50,11 @@
     <Compile Include="Exceptions\ElementHiddenException.cs" />
     <Compile Include="Exceptions\ElementNotFoundException.cs" />
     <Compile Include="Exceptions\ZennoFrameworkException.cs" />
+    <Compile Include="Extensions\EnumerableExtensions.cs" />
     <Compile Include="BotContext.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Extensions\ZennoInstanceExtensions.cs" />
+    <Compile Include="Extensions\ZennoTabExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
