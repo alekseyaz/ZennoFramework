@@ -56,6 +56,7 @@
     <Compile Include="Infrastructure\Extensions\Instance.Without.cs" />
     <Compile Include="Infrastructure\Extensions\Tab.Without.cs" />
     <Compile Include="Infrastructure\Extensions\Element.Without.cs" />
+    <Compile Include="Infrastructure\Instance.cs" />
     <Compile Include="Extensions\ZennoInstanceExtensions.cs" />
     <Compile Include="Extensions\ZennoTabExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
