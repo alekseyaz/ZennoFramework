@@ -46,6 +46,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enums\OptionState.cs" />
+    <Compile Include="Infrastructure\Elements\ElementCollection`.cs" />
+    <Compile Include="Infrastructure\Elements\ElementContainer.cs" />
+    <Compile Include="Infrastructure\Elements\Internal\ElementState.cs" />
+    <Compile Include="Infrastructure\Elements\Element.cs" />
+    <Compile Include="Infrastructure\Elements\Internal\ElementCollectionChecker.cs" />
     <Compile Include="BotContextConfiguration.cs" />
     <Compile Include="Exceptions\ElementHiddenException.cs" />
     <Compile Include="Exceptions\ElementNotFoundException.cs" />
@@ -53,6 +58,8 @@
     <Compile Include="Extensions\EnumerableExtensions.cs" />
     <Compile Include="BotContext.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Infrastructure\Elements\Internal\Element.cs" />
+    <Compile Include="Infrastructure\Elements\ElementCollection.cs" />
     <Compile Include="Infrastructure\Extensions\Instance.Without.cs" />
     <Compile Include="Infrastructure\Extensions\Tab.Without.cs" />
     <Compile Include="Infrastructure\Extensions\Element.Without.cs" />
