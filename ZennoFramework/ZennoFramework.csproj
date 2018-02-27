@@ -51,6 +51,7 @@
     <Compile Include="Infrastructure\Elements\Internal\ElementState.cs" />
     <Compile Include="Infrastructure\Elements\Element.cs" />
     <Compile Include="Infrastructure\Elements\Internal\ElementCollectionChecker.cs" />
+    <Compile Include="Infrastructure\ILoggable.cs" />
     <Compile Include="BotContextConfiguration.cs" />
     <Compile Include="Exceptions\ElementHiddenException.cs" />
     <Compile Include="Exceptions\ElementNotFoundException.cs" />
