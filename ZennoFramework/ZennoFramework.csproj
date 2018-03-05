@@ -52,13 +52,17 @@
     <Compile Include="Infrastructure\Elements\Element.cs" />
     <Compile Include="Infrastructure\Elements\Internal\ElementCollectionChecker.cs" />
     <Compile Include="Infrastructure\ILoggable.cs" />
+    <Compile Include="Utilities\Check.cs" />
+    <Compile Include="Utilities\StackTraceHelper.cs" />
     <Compile Include="BotContextConfiguration.cs" />
+    <Compile Include="Utilities\TypeExtensions.cs" />
     <Compile Include="Exceptions\ElementHiddenException.cs" />
     <Compile Include="Exceptions\ElementNotFoundException.cs" />
     <Compile Include="Exceptions\ZennoFrameworkException.cs" />
     <Compile Include="Extensions\EnumerableExtensions.cs" />
     <Compile Include="BotContext.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Utilities\Range.cs" />
     <Compile Include="Infrastructure\Elements\Internal\Element.cs" />
     <Compile Include="Infrastructure\Elements\ElementCollection.cs" />
     <Compile Include="Infrastructure\Extensions\Instance.Without.cs" />
@@ -68,7 +72,9 @@
     <Compile Include="Infrastructure\Tab.cs" />
     <Compile Include="Extensions\ZennoInstanceExtensions.cs" />
     <Compile Include="Extensions\ZennoTabExtensions.cs" />
+    <Compile Include="Utilities\MethodCaller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\Waiter.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
