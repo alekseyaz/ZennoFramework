@@ -56,6 +56,9 @@
     <Compile Include="Logger.cs" />
     <Compile Include="LogLevel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Zenno\ZennoLoggerProvider.cs" />
+    <Compile Include="Zenno\ZennoLogger.cs" />
+    <Compile Include="Zenno\ZennoLoggerFactoryExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
