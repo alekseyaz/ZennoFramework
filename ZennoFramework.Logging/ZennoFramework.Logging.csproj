@@ -45,6 +45,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstractions\ILogger.cs" />
+    <Compile Include="Abstractions\ILoggerFactory.cs" />
+    <Compile Include="Abstractions\ILoggerOfT.cs" />
+    <Compile Include="Abstractions\ILoggerProvider.cs" />
+    <Compile Include="Abstractions\Internal\FormattedLogValues.cs" />
+    <Compile Include="Abstractions\Internal\LogValuesFormatter.cs" />
+    <Compile Include="Abstractions\Internal\TypeNameHelper.cs" />
+    <Compile Include="Abstractions\LoggerFactoryExtensions.cs" />
+    <Compile Include="Abstractions\LoggerOfT.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="LogLevel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
