@@ -82,6 +82,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\Waiter.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZennoFramework.Logging\ZennoFramework.Logging.csproj">
+      <Project>{222f117a-2b61-411e-9759-64723a757c9e}</Project>
+      <Name>ZennoFramework.Logging</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
