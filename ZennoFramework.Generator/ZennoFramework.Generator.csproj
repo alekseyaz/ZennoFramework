@@ -12,5 +12,8 @@
     <None Remove="Templates\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ZennoFramework.Api.Common\ZennoFramework.Api.Common.csproj" />
+  </ItemGroup>
 
 </Project>
