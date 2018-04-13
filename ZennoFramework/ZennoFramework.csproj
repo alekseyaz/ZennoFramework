@@ -59,9 +59,17 @@
     <Compile Include="Infrastructure\Elements\Internal\ElementCollectionChecker.cs" />
     <Compile Include="Infrastructure\ILoggable.cs" />
     <Compile Include="Interception\Abstractions\IInterceptor.cs" />
+    <Compile Include="Interception\Configuration\InterceptorRule.cs" />
+    <Compile Include="Interception\Configuration\RuleBuilder.cs" />
+    <Compile Include="Interception\Configuration\RuleType.cs" />
     <Compile Include="Interception\Interceptor.cs" />
+    <Compile Include="Interception\SenderInfo.cs" />
     <Compile Include="Interception\Abstractions\IInterceptable.cs" />
+    <Compile Include="Interception\InterceptionException.cs" />
     <Compile Include="Interception\Interception.cs" />
+    <Compile Include="Interception\InterceptionExtensions.cs" />
+    <Compile Include="Interception\Configuration\InterceptorRulesBuilder.cs" />
+    <Compile Include="Interception\InterceptorInfo.cs" />
     <Compile Include="Utilities\Check.cs" />
     <Compile Include="Utilities\StackTraceHelper.cs" />
     <Compile Include="BotContextConfiguration.cs" />
