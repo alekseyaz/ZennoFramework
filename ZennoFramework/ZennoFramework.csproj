@@ -59,7 +59,9 @@
     <Compile Include="Infrastructure\Elements\Internal\ElementCollectionChecker.cs" />
     <Compile Include="Infrastructure\ILoggable.cs" />
     <Compile Include="Interception\Abstractions\IInterceptor.cs" />
+    <Compile Include="Interception\Interceptor.cs" />
     <Compile Include="Interception\Abstractions\IInterceptable.cs" />
+    <Compile Include="Interception\Interception.cs" />
     <Compile Include="Utilities\Check.cs" />
     <Compile Include="Utilities\StackTraceHelper.cs" />
     <Compile Include="BotContextConfiguration.cs" />
