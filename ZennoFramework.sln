@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZennoFramework", "ZennoFram
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZennoFramework.Xml", "ZennoFramework.Xml\ZennoFramework.Xml.csproj", "{95DB1AA3-BD52-49C1-98B2-F2F6B02662F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZennoFramework.ApiClient.Tests", "ZennoFramework.ApiClient.Tests\ZennoFramework.ApiClient.Tests.csproj", "{C816122A-3F10-4661-91B6-ACEB3EF9D68D}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZennoFramework.Api.Common", "ZennoFramework.Api.Common\ZennoFramework.Api.Common.csproj", "{EB070602-106D-4957-AA18-ABA7D95E3CF1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZennoFramework.Generator", "ZennoFramework.Generator\ZennoFramework.Generator.csproj", "{DC51C28C-4D0D-43DC-87FE-CE680BB89DB9}"
