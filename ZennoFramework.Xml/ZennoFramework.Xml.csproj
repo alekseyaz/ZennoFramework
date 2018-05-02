@@ -59,6 +59,10 @@
     <Compile Include="XmlParser.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ZennoFramework.Api.Common\ZennoFramework.Api.Common.csproj">
+      <Project>{eb070602-106d-4957-aa18-aba7d95e3cf1}</Project>
+      <Name>ZennoFramework.Api.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ZennoFramework\ZennoFramework.csproj">
       <Project>{02B70F05-D77D-4453-9FBE-FFD6F7F494C5}</Project>
       <Name>ZennoFramework</Name>
