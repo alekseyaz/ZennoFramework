@@ -63,6 +63,10 @@
       <Project>{eb070602-106d-4957-aa18-aba7d95e3cf1}</Project>
       <Name>ZennoFramework.Api.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ZennoFramework.ApiClient\ZennoFramework.Api.Client.csproj">
+      <Project>{eddd297b-a506-4ff2-87f7-82fc3ccc209f}</Project>
+      <Name>ZennoFramework.Api.Client</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ZennoFramework\ZennoFramework.csproj">
       <Project>{02B70F05-D77D-4453-9FBE-FFD6F7F494C5}</Project>
       <Name>ZennoFramework</Name>
