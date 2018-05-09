@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZennoFramework.Xml", "Zenno
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZennoFramework.ApiClient.Tests", "ZennoFramework.ApiClient.Tests\ZennoFramework.ApiClient.Tests.csproj", "{C816122A-3F10-4661-91B6-ACEB3EF9D68D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZennoFramework.Api.Client", "ZennoFramework.ApiClient\ZennoFramework.Api.Client.csproj", "{EDDD297B-A506-4FF2-87F7-82FC3CCC209F}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZennoFramework.Api.Common", "ZennoFramework.Api.Common\ZennoFramework.Api.Common.csproj", "{EB070602-106D-4957-AA18-ABA7D95E3CF1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZennoFramework.Generator", "ZennoFramework.Generator\ZennoFramework.Generator.csproj", "{DC51C28C-4D0D-43DC-87FE-CE680BB89DB9}"
@@ -33,6 +35,10 @@ Global
 		{C816122A-3F10-4661-91B6-ACEB3EF9D68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C816122A-3F10-4661-91B6-ACEB3EF9D68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C816122A-3F10-4661-91B6-ACEB3EF9D68D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDDD297B-A506-4FF2-87F7-82FC3CCC209F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDD297B-A506-4FF2-87F7-82FC3CCC209F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDD297B-A506-4FF2-87F7-82FC3CCC209F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDD297B-A506-4FF2-87F7-82FC3CCC209F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EB070602-106D-4957-AA18-ABA7D95E3CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EB070602-106D-4957-AA18-ABA7D95E3CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB070602-106D-4957-AA18-ABA7D95E3CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
