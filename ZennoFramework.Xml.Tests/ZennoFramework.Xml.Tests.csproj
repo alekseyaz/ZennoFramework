@@ -59,6 +59,26 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="_data\Main.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="_data\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="_data\Resources\Buttons.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="_data\Resources\Comments.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="_data\Resources\Popups.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="_data\Resources\Wall.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
