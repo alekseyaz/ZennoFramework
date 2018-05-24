@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZennoFramework.Xml", "Zenno
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZennoFramework.Xml.Tests", "ZennoFramework.Xml.Tests\ZennoFramework.Xml.Tests.csproj", "{15A38DCC-5284-4E4D-90E1-9FEC5A26BA42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZennoFramework.Tests", "ZennoFramework.Tests\ZennoFramework.Tests.csproj", "{32710CBA-D25D-4A17-B2E4-5DF7D379F284}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZennoFramework.ApiClient.Tests", "ZennoFramework.ApiClient.Tests\ZennoFramework.ApiClient.Tests.csproj", "{C816122A-3F10-4661-91B6-ACEB3EF9D68D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZennoFramework.Api.Client", "ZennoFramework.ApiClient\ZennoFramework.Api.Client.csproj", "{EDDD297B-A506-4FF2-87F7-82FC3CCC209F}"
@@ -37,6 +39,10 @@ Global
 		{15A38DCC-5284-4E4D-90E1-9FEC5A26BA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15A38DCC-5284-4E4D-90E1-9FEC5A26BA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15A38DCC-5284-4E4D-90E1-9FEC5A26BA42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32710CBA-D25D-4A17-B2E4-5DF7D379F284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32710CBA-D25D-4A17-B2E4-5DF7D379F284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32710CBA-D25D-4A17-B2E4-5DF7D379F284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32710CBA-D25D-4A17-B2E4-5DF7D379F284}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C816122A-3F10-4661-91B6-ACEB3EF9D68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C816122A-3F10-4661-91B6-ACEB3EF9D68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C816122A-3F10-4661-91B6-ACEB3EF9D68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -61,5 +67,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 		{15A38DCC-5284-4E4D-90E1-9FEC5A26BA42} = {E0241E8F-2337-4F49-9639-DA0F6F20DA0E}
+		{32710CBA-D25D-4A17-B2E4-5DF7D379F284} = {E0241E8F-2337-4F49-9639-DA0F6F20DA0E}
 		{C816122A-3F10-4661-91B6-ACEB3EF9D68D} = {E0241E8F-2337-4F49-9639-DA0F6F20DA0E}
 EndGlobal
