@@ -48,7 +48,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Check.Keys\Main.cs" />
+    <Compile Include="Check.XPath\Main.cs" />
     <Compile Include="Check.Keys\Other.cs" />
+    <Compile Include="Check.XPath\Elements.cs" />
+    <Compile Include="Check.XPath\Other.cs" />
     <Compile Include="Extensions.cs" />
     <Compile Include="Config.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
