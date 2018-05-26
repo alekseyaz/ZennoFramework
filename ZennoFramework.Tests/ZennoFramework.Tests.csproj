@@ -73,6 +73,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Elements.cs">
+      <DependentUpon>Elements.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Pages\Login\Elements\LoginButton.cs" />
     <Compile Include="Pages\Login\Elements\Links.cs" />
     <Compile Include="Pages\Login\Elements\LoginButtonWrap.cs" />
