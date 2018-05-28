@@ -73,6 +73,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Building\ActionInitializerTests.cs" />
     <Compile Include="Elements.cs">
       <DependentUpon>Elements.tt</DependentUpon>
       <AutoGen>True</AutoGen>
