@@ -61,6 +61,11 @@
     <Content Include="_elements\Elements.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Compile Include="_elements\Elements.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Elements.tt</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
