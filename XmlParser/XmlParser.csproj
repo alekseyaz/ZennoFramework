@@ -42,6 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="_elements\Elements.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Elements.cs</LastGenOutput>
+    </Content>
     <Content Include="_elements\Resources\Wall.xml">
       <SubType>Designer</SubType>
     </Content>
